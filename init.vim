@@ -3,6 +3,7 @@ call plug#begin()
 Plug 'github/copilot.vim'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'neovim/nvim-lspconfig'
+Plug 'preservim/nerdtree'
 
 call plug#end()
 
@@ -10,7 +11,6 @@ set number
 set relativenumber
 
 let g:github_sidebars = ['qf', 'vista_kind', 'terminal', 'packer']
-let g:github_transparent = 1
 let g:github_theme_style = 'dark_default'
 let g:github_comment_style = 'NONE'
 let g:github_keyword_style = 'NONE'
@@ -19,5 +19,9 @@ let g:github_variable_style = 'NONE'
 
 colorscheme github_*
 
-map w :w<cr>
+let mapleader = ','
+
+nnoremap w :w<cr>
+
+nnoremap <space> :NERDTreeToggle<cr>
 
