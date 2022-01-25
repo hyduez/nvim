@@ -1,7 +1,8 @@
-call plug#begin('C:\Users\User\AppData\Local\nvim-data\site\autoload\')
+call plug#begin()
 
 Plug 'github/copilot.vim'
 Plug 'projekt0n/github-nvim-theme'
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
@@ -17,4 +18,6 @@ let g:github_function_style = 'NONE'
 let g:github_variable_style = 'NONE'
 
 colorscheme github_*
+
+map w :w<cr>
 
