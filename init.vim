@@ -3,7 +3,6 @@ call plug#begin()
 Plug 'github/copilot.vim'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'neovim/nvim-lspconfig'
-Plug 'preservim/nerdtree'
 
 call plug#end()
 
@@ -23,5 +22,5 @@ let mapleader = ','
 
 nnoremap w :w<cr>
 
-nnoremap <space> :NERDTreeToggle<cr>
+" nnoremap <space> :NERDTreeToggle<cr>
 
