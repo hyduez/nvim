@@ -1,4 +1,5 @@
 lua << EOF
+
 local nvim_lsp = require('lspconfig')
 local protocol = require('vim.lsp.protocol')
 
