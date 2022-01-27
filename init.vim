@@ -30,6 +30,7 @@ let g:github_variable_style = 'NONE'
 colorscheme github_*
 
 let g:NERDTreeQuitOnOpen = 1
+let NERDTreeShowHidden=1
 
 let mapleader = ','
 
