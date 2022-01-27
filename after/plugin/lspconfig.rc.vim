@@ -19,3 +19,4 @@ nvim_lsp.tsserver.setup {
 }
 
 EOF
+
