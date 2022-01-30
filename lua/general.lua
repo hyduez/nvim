@@ -10,3 +10,6 @@ o.sw = 2
 o.encoding = 'utf-8'
 o.showmode = false
 
+vim.g.NERDTreeQuitOnOpen = 1
+vim.g.NERDTreeShowHidden = 1
+
