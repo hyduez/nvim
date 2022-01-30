@@ -1,3 +1,4 @@
-require('lua/general')
-require('lua/mappings')
-require('lua/vim-plug')
+require 'general'
+require 'mappings'
+require 'vim-plug'
+
