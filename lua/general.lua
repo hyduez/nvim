@@ -1,15 +1,23 @@
-local o = vim.o
+local opts = {
+  backup = false,
+  mouse = 'a',
+  number = true,
+  numberwidth = 4,
+  showcmd = true,
+  showmatch = true,
+  tabstop = 2,
+  encoding = 'utf-8',
+  showmode = false,
+  cursorline = true,
+  wrap = false,
+  cmdheight = 2,
+  showtabline = 2,
+  relativenumber = true,
+	syntax = 'on',
+	completeopt = {'menuone', 'noselect'}
+}
 
-o.mouse = 'a'
-o.wrap = true
-o.number = true
-o.numberwidth = 1
-o.showcmd = true
-o.showmatch = true
-o.sw = 2
-o.encoding = 'utf-8'
-o.showmode = false
-
-vim.g.NERDTreeQuitOnOpen = 1
-vim.g.NERDTreeShowHidden = 1
+for k, v in pairs(opts) do
+  vim.opt[k] = v
+end
 

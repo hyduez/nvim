@@ -1,6 +1,6 @@
 {
   "rpc.enabled": true,
-  "rpc.checkIdle": false,
+  "rpc.checkIdle": true,
   "rpc.idleTimeout": 300,
   "rpc.idleText": "Idle",
   "rpc.ignoreWorkspaces": [],

@@ -1,4 +1,9 @@
+require 'plugins'
 require 'general'
 require 'mappings'
-require 'vim-plug'
+require 'colorscheme'
+require 'lsp'
+require 'autopairs'
+require 'autocommands'
+require 'cmp'
 
