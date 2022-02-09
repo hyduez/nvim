@@ -92,9 +92,9 @@ end
 
 -- local status_ok, cmp_nvim_lsp = pcall(require, 'cmp_nvim_lsp')
   -- if not status_ok then
-  -- return
--- end
+    -- return
+  -- end
 
--- m.capabilities = cmp_nvim_lsp.update_capabilities(capabilities)
+--m.capabilities = cmp_nvim_lsp.update_capabilities(capabilities)
 
 return m

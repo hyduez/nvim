@@ -1,4 +1,9 @@
-require('github-theme').setup({
+local status_ok, github = pcall(require, 'github-theme')
+if not status_ok then
+  return
+end
+
+github.setup({
   comment_style = 'NONE',
 	dark_float = false,
 	function_style = 'NONE',
