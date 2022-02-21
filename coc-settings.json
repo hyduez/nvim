@@ -1,5 +1,5 @@
 {
-  "rpc.enabled": false,
+  "rpc.enabled": true,
   "rpc.checkIdle": true,
   "rpc.idleTimeout": 300,
   "rpc.idleText": "Idle",

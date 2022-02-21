@@ -14,6 +14,11 @@ packer.startup(function(use)
 	use 'christoomey/vim-tmux-navigator'
 	use 'jose-elias-alvarez/null-ls.nvim'
 	use 'nvim-lua/plenary.nvim'
+
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  -- use 'saadparwaiz1/cmp_luasnip'
+  use 'L3MON4D3/LuaSnip'
   use { 'neoclide/coc.nvim', branch = 'release' }
 end)
 
